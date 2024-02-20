@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+  <script src="js/copiar.js"></script>
+  <script src="js/criptografia.js"></script>
+  <script src="js/valida.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <img src="images/logo.png" alt="Logo do desafio." width="200" height="200" id="logo">
+    </div>
+  </header>
+
+  <div class="get-started">
+    <h2>Sejam Bem-Vindos à Plataforma de Decodificação, DECODIFICATOR!</h2>
+    <p>O projeto da One Next Education, com os apoiadores Alura e a Oracle, deu origem a um desafio challenge para a criação desta ferramenta que nos faz por em prática todo o conhecimento adquirido na primeira fase do projeto. Gostaria de expressar minha sincera gratidão à Oracle e da Alura por todo o esforço desempenhado na criação do projeto da One Next Education 2024.<p>
+  </div>
+  <main class="main">
+    <section>
+      <textarea id="inputTexto" class="input-texto" cols="40" rows="9" placeholder="Digite sua mensagem"></textarea>
+      <div class="informacao">
+        <ul class="mensagens-erro"></ul>
+        <div class="botoes">
+          <button type="button" class="button-style btn-codificar">Codificar</button>
+          <button type="button" class="button-style btn-decodificar">Decodificar</button>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <textarea id="resultado" class="input-texto" cols="40" rows="9" placeholder="Não identificamos nenhuma mensagem digitada" readonly></textarea>
+      <div class="botoes">
+        <button type="button" class="button-style btn-copiar">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+
+</body>
+
+</html>
